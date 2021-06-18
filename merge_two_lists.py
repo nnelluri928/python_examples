@@ -7,3 +7,9 @@ def merge_gen(a,b):
 a = ["a","b","c","d"]
 b = [1,2,3,4]
 print(list(merge_gen(a,b)))
+
+
+#second solution
+
+from itertools import chain
+print(list(chain.from_iterable(zip(a,b))))
