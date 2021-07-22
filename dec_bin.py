@@ -9,7 +9,7 @@ else:
 res =''
 while num > 0:
     res = str(num%2) + res
-    num = num //2
+    num = num //2 
 if isNeg:
     res = '-' + res
 print(res)
